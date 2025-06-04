@@ -1,0 +1,36 @@
+<div id="popup-iklan" style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(45deg, red, gold);
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px red;
+  z-index: 999;
+  cursor: pointer;
+  animation: blink 1s infinite alternate;
+">
+  🏡 DIJUAL TANAH + BANGUNAN TUA<br>
+  📍 Lokasi Strategis – Kota Yogyakarta!<br>
+  📐 Luas: 597m² (SHM) + Bangunan Lama<br>
+  🚀 232m dari Jl. Brigjen Katamso<br>
+  💼 35m dari Kantor Lurah Prawirodirjan<br>
+  💰 Harga: 7 Milyar<br>
+  📞 Klik untuk Info Lengkap via WhatsApp!081290152016
+088210353343
+</div>
+
+<script>
+  document.getElementById('popup-iklan').onclick = function() {
+    window.open("https://wa.me/6281234567890?text=Halo%2C+saya+tertarik+dengan+iklan+tanah+di+Jl.+Ireda%2C+Yogyakarta", "_blank");
+};
+</script>
+
+<style>
+@keyframes blink {
+  0% { transform: scale(1); background: red; }
+  100% { transform: scale(1.05); background: gold; }
+}
+</style>
